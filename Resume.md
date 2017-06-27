@@ -10,6 +10,4 @@ It's Umang here.
 
 I am a Game Developer.
 
-### Contact me
-
-[uudesai2009@gmail.com](mailto:uudesai2009@gmail.com)
+Download my resume from [https://www.dropbox.com/s/27m6mgbyurf6msv/UmangDesai2.pdf?dl=0](here).
