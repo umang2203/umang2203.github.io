@@ -1,1 +1,5 @@
 
+type: CNAME
+host: www.umangudesai.com
+answer: umang2203.github.io
+TTL: 300
