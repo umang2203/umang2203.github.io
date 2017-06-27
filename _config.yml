@@ -9,7 +9,7 @@ name: Umang Desai
 description: Game Developer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/umang2203/umang2203.github.io/blob/master/images/Umang.jpg
+avatar: https://raw.githubusercontent.com/umang2203/umang2203.github.io/master/images/Umang.jpg
 #
 # Flags below are optional
 #
@@ -18,14 +18,14 @@ avatar: https://raw.githubusercontent.com/umang2203/umang2203.github.io/blob/mas
 footer-links:
   dribbble:
   email:
-  facebook: https://www.facebook.com/umangdesai2203
+  facebook: umangdesai2203
   flickr:
   github: umang2203
   instagram:
-  linkedin: https://www.linkedin.com/in/umangudesai/
+  linkedin: umangudesai
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: https://twitter.com/umang2203
+  twitter: umang2203
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
