@@ -10,4 +10,4 @@ It's Umang here.
 
 I am a Game Developer.
 
-Download my resume from [https://www.dropbox.com/s/27m6mgbyurf6msv/UmangDesai2.pdf?dl=0](here).
+Download my resume from [here](https://www.dropbox.com/s/27m6mgbyurf6msv/UmangDesai2.pdf?dl=0).
