@@ -99,8 +99,12 @@
     /* color-1(#11ABB0)
      * color-2(#F06000)
      */
-    --color-1: hsla(182, 82%, 38%, 1);
-    --color-2: hsla(24, 100%, 47%, 1);
+    --color-1: hsla(0, 0%, 0%, 1);
+    --color-2: hsla(180, 82%, 38%, 1);
+
+    --color-3: hsla(0,0%, 0%, 1);
+    --color-4: hsla(182, 82%, 38%, 1);
+    --color-5: hsla(24, 100%, 47%, 1);
 
     /* theme color variations
      */
@@ -166,7 +170,7 @@
     --color-btn-text              : var(--color-black);
     --color-btn-hover             : var(--color-black);
     --color-btn-hover-text        : var(--color-white);
-    --color-btn-primary           : var(--color-1);
+    --color-btn-primary           : var(--color-1-dark);
     --color-btn-primary-text      : var(--color-white);
     --color-btn-primary-hover     : var(--color-2);
     --color-btn-primary-hover-text: var(--color-white);
@@ -1609,7 +1613,6 @@ a:hover, a:active {
     outline: 0;
 }
 
-
 /* ===================================================================
  * # typography & general theme styles
  * 
@@ -1917,7 +1920,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: var(--color-1);
+    color: var(--color-4);
 }
 
 dd {
@@ -2210,7 +2213,7 @@ input[type="password"]:focus,
 textarea:focus, 
 select:focus {
     color: var(--color-black);
-    border-bottom: 1px solid var(--color-1);
+    border-bottom: 1px solid var(--color-1-dark);
 }
 
 label, legend {
@@ -2538,7 +2541,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .stats-tabs li a:hover {
-    color: var(--color-1);
+    color: var(--color-4);
 }
 
 .stats-tabs li a em {
@@ -2944,7 +2947,7 @@ input[type="button"].btn--primary:focus {
     display: block;
     height: 2px;
     width: 100%;
-    background-color: var(--color-1);
+    background-color: var(--color-4);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -3912,11 +3915,23 @@ input[type="button"].btn--primary:focus {
     margin-bottom: var(--vspace-0_25);
 }
 
+.resume-block h5 {
+    line-height: 1.0;
+    margin-top: 0;
+    margin-bottom: var(--vspace-0_125);
+}
+
 .resume-block__header-meta {
     font-family: var(--font-2);
     font-size: calc(var(--text-size) * 1.1111);
     font-style: italic;
     margin-top: -.4rem;
+    margin-bottom: var(--vspace-0_75);
+}
+.resume-block__header-meta-sub {
+    font-family: var(--font-1);
+    font-size: calc(var(--text-size));
+    margin-top: 1.4rem;
     margin-bottom: var(--vspace-0_75);
 }
 
@@ -3935,6 +3950,15 @@ input[type="button"].btn--primary:focus {
     color: var(--color-text-light);
 }
 
+.resume-block__header-platform {
+    display: inline-block;
+    font-family: var(--font-1);
+    font-size: calc(var(--text-size) * 0.8);
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--color-text-light);
+}
 .resume-block__header-date::before {
     content: "\2022";
     color: var(--color-text);
@@ -4133,8 +4157,8 @@ input[type="button"].btn--primary:focus {
 
 .modal-popup__details:hover, 
 .modal-popup__details:focus {
-    background-color: var(--color-1);
-    border-color: var(--color-1);
+    background-color: var(--color-4);
+    border-color: var(--color-4);
     color: white;
 }
 
@@ -4294,7 +4318,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-testimonials .swiper-pagination-bullet-active {
-    background: var(--color-1);
+    background: var(--color-4);
     opacity: 1;
 }
 
@@ -4626,7 +4650,7 @@ input[type="button"].btn--primary:focus {
 
 .ss-go-top a:hover, 
 .ss-go-top a:focus {
-    background-color: var(--color-1);
+    background-color: var(--color-4);
 }
 
 .ss-go-top svg {
