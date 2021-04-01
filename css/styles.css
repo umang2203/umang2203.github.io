@@ -4434,6 +4434,22 @@ input[type="button"].btn--primary:focus {
     line-height: 1.304;
 }
 
+.s-contact .huge-text-2 {
+    color: white;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 3.6rem;
+    line-height: 1.304;
+}
+
+.s-contact .huge-text-3 {
+    color: white;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 1.304;
+}
+
 .s-contact__content [class*="column"]:last-child {
     margin-left: auto;
 }
