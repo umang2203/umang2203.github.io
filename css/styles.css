@@ -4435,7 +4435,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-contact .huge-text-2 {
-    color: white;
+    color: whitesmoke;
     margin-top: 0;
     font-weight: 400;
     font-size: 3.6rem;
@@ -4443,7 +4443,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-contact .huge-text-3 {
-    color: white;
+    color: whitesmoke;
     margin-top: 0;
     font-weight: 400;
     font-size: 2.4rem;
